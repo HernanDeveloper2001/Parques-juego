@@ -260,3 +260,85 @@
 .mesa-verde-camino-2-parte-32{
   clip-path: polygon(0 0, 100% 85%, 100% 100%, 0 100%);
 }
+
+/*MESA MORADA*/
+.mesa-morada{
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  
+}
+
+.mesa-morada-salida{
+  background: rgba(106, 0, 255,0.5);
+  width: 120px;
+  height: 120px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  display: grid;
+  gap: 10%;
+  place-items: center;
+  place-content: center;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+}
+
+.mesa-morada-salida > div{
+  border:1px solid rgb(106, 0, 255);
+  border-radius: 50%;
+  width:20px;
+  height: 20px;
+  text-align: center;
+}
+
+.mesa-morada-camino{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.mesa-morada-camino-1{
+  width: 20px;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
+}
+
+.mesa-morada-camino-1 > div{
+  border: 1px solid rgb(106, 0, 255);
+  height: calc(100% / 6);
+}
+
+.mesa-morada-camino-1-parte-40{
+  background: rgb(106, 0, 255);
+}
+
+.mesa-morada-camino-1-parte-43{
+  clip-path: polygon(0 0, 100% 0, 100% 15%, 0 100%);
+}
+
+/*PARTE DOS*/
+.mesa-morada-camino-2{
+  width: 100%;
+  height: 20px;
+  display: flex;
+  transform: rotate(180deg)
+}
+
+.mesa-morada-camino-2 > div{
+  border: 1px solid rgb(106, 0, 255);
+  width: calc(100% / 6);
+}
+
+.mesa-morada-camino-2-parte-47{
+  background: rgb(106, 0, 255);
+}
+
+.mesa-morada-camino-2-parte-44{
+  clip-path: polygon(85% 0, 100% 0, 100% 100%, 0 100%);
+}
