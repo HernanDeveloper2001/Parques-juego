@@ -9,6 +9,7 @@
   width: 300px;
   height: 300px;
   border: 2px solid #B97400;
+  position: relative;
 }
 
 .mesa-roja{
@@ -94,3 +95,86 @@
   background: rgb(255, 0, 0);
 }
 
+
+
+/*MESA AZUL*/
+
+.mesa-azul{
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.mesa-azul-salida{
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background:rgba(0, 0, 255, 0.5);
+  display: grid;
+  gap: 10%;
+  place-items: center;
+  place-content: center;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+}
+
+.mesa-azul-salida > div{
+  border: 1px solid rgb(0, 0, 255);
+  border-radius: 50%;
+  width:20px;
+  height: 20px;
+  text-align: center;
+}
+
+.mesa-azul-camino{
+  width: 100%;
+  height:100%;
+  position: relative;
+}
+
+.mesa-azul-camino-1{
+  width: 20px;
+  height: 140px;
+}
+
+.mesa-azul-camino-1 > div{
+  height: calc(100% / 6);
+  text-align: center;
+  border: 1px solid rgb(0, 0, 255);
+}
+
+.mesa-azul-camino-1-partes-16{
+  background: rgb(0, 0, 255);
+}
+
+.mesa-azul-camino-1-partes-19{
+  clip-path: polygon(0 0, 100% 0, 100% 15%,0 100%);
+}
+
+/*PARTE DOS*/
+
+.mesa-azul-camino-2{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 140px;
+}
+
+.mesa-azul-camino-2 > div{
+  width: calc(100% / 6);
+  height: 20px;
+  border: 1px solid rgb(0, 0, 255);
+}
+
+.mesa-azul-camino-2-partes-23{
+  background: rgb(0, 0, 255);
+}
+
+.mesa-azul-camino-2-partes-20{
+  clip-path: polygon(85% 0, 100% 0,100% 100%, 0 100% );
+}
