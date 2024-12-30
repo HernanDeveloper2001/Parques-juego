@@ -178,3 +178,85 @@
 .mesa-azul-camino-2-partes-20{
   clip-path: polygon(85% 0, 100% 0,100% 100%, 0 100% );
 }
+
+/*MESA VERDE*/
+
+.mesa-verde{
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.mesa-verde-salida{
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background:rgba(0, 255, 0, 0.5);
+  display: grid;
+  gap: 10%;
+  place-items: center;
+  place-content: center;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+}
+
+.mesa-verde-salida > div{
+  border: 1px solid rgb(0, 255, 0);
+  border-radius: 50%;
+  width:20px;
+  height: 20px;
+  text-align: center;
+}
+
+.mesa-verde-camino{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.mesa-verde-camino-1{
+  display: flex;
+  transform: rotate(180deg);
+  width: 100%;
+  height: 20px;
+}
+
+.mesa-verde-camino-1 > div{
+  width: calc(100% / 6);
+  border: 1px solid rgb(0, 255, 0);
+}
+
+.mesa-verde-camino-1-parte-28{
+  background: rgb(0, 255, 0);
+}
+
+.mesa-verde-camino-1-parte-31{
+  clip-path: polygon(0 0, 15% 0, 100% 100%, 0 100%);
+}
+
+/*PARTE DOS*/
+
+.mesa-verde-camino-2{
+  width: 20px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mesa-verde-camino-2 > div{
+  height: calc(100% / 6);
+  border: 1px solid rgb(0, 255, 0);
+}
+
+.mesa-verde-camino-2-parte-35{
+  background: rgb(0, 255, 0);
+}
+
+.mesa-verde-camino-2-parte-32{
+  clip-path: polygon(0 0, 100% 85%, 100% 100%, 0 100%);
+}
