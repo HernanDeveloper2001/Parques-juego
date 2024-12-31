@@ -683,4 +683,5 @@
   padding: 20px;
   border: 1px dashed rgb(0, 0, 255);
   background: rgba(0, 0, 255, 0.5);
+  display: none;
 }

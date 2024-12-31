@@ -10,6 +10,8 @@ const fichasVerde = document.querySelectorAll("[class^='mesa-verde-salida-pieza-
 const fichasMorada = document.querySelectorAll("[class^='mesa-morada-salida-pieza-'] ");
 
 
+const botonTirarDado = document.querySelector(".botones-tirar-dado");
+
 botonJugar.addEventListener("click", e => {
   e.preventDefault();
   e.stopPropagation();
@@ -31,5 +33,7 @@ botonJugar.addEventListener("click", e => {
   })
   
   botonJugar.style.display = "none";
+  botonTirarDado.style.display = "block";
   
-})
+});
+
