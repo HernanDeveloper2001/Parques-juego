@@ -412,7 +412,6 @@
 
 .mesa-llegada-azul-parte-6{
   clip-path: polygon(0 0, 75% 0, 100% 50%, 75% 100%, 0 100%, 0% 50%);
-  border-bottom: 1px solid red;
 }
 
 .mesa-llegada-azul-piezas-ganadoras{
@@ -427,6 +426,46 @@
 }
 
 .mesa-llegada-azul-piezas-ganadoras > div{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+/*MESA LLEGADA MORADA*/
+
+.mesa-llegada-morada{
+  width: 145px;
+  height: 20px;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+
+.mesa-llegada-morada > div{
+  width: calc(100% / 6);
+  border: 1px solid rgb(106, 0, 255);
+  background: rgba(106, 0, 255,0.5);
+}
+
+.mesa-llegada-morada-parte-6{
+  clip-path: polygon(0 0, 75% 0, 100% 50%, 75% 100%, 0 100%, 0% 50%);
+}
+
+.mesa-llegada-morada-piezas-ganadoras{
+  width: 90px;
+  height: 20px;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  display: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.mesa-llegada-morada-piezas-ganadoras > div{
   border-radius: 50%;
   width: 20px;
   height: 20px;
