@@ -342,3 +342,43 @@
 .mesa-morada-camino-2-parte-44{
   clip-path: polygon(85% 0, 100% 0, 100% 100%, 0 100%);
 }
+
+
+/*MESA LLEGADA*/
+
+.mesa-llegada{
+  width:100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+/*MESA LLEGADA ROJA*/
+.mesa-llegada-roja{
+  width: 20px;
+  height: 145px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.mesa-llegada-roja > div{
+  border: 1px solid rgb(255, 0, 0);
+  height: calc(100% / 6);
+  background: rgba(255, 0, 0, 0.5);
+}
+
+.mesa-llegada-roja-parte-6{
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 50% 100%, 0 85%);
+  
+}
+
+.mesa-llegada-roja-piezas-ganadora{
+  width:60px;
+  height:20px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
