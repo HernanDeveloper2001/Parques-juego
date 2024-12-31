@@ -382,3 +382,41 @@
   left: 5px;
 }
 
+/*MESA LLEGADA AZUL*/
+.mesa-llegada-azul{
+  display: flex;
+  width:145px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.mesa-llegada-azul > div{
+  background: rgba(0, 0, 255, 0.5);
+  width: calc(100% / 6);
+  border: 1px solid rgb(0, 0, 255);
+}
+
+.mesa-llegada-azul-parte-6{
+  clip-path: polygon(0 0, 75% 0, 100% 50%, 75% 100%, 0 100%, 0% 50%);
+  border-bottom: 1px solid red;
+}
+
+.mesa-llegada-azul-piezas-ganadoras{
+  width: 90px;
+  height: 20px;
+  top: 5px;
+  right: 5px;
+  position: absolute;
+  display: none;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mesa-llegada-azul-piezas-ganadoras > div{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
