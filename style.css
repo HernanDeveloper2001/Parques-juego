@@ -8,7 +8,6 @@
   margin: 20px auto;
   width: 300px;
   height: 300px;
-  border: 2px solid #B97400;
   position: relative;
 }
 
@@ -28,6 +27,8 @@
   place-content: center;
   grid-template-rows: auto auto;
   grid-template-columns: auto auto;
+  border-top: 1px solid rgb(255, 0, 0);
+  border-left: 1px solid rgb(255, 0, 0);
 }
 
 .mesa-roja-salida > div{
@@ -119,6 +120,8 @@
   place-items: center;
   place-content: center;
   grid-template-rows: auto auto;
+  border-top: 1px solid rgb(0, 0, 255);
+  border-right: 1px solid rgb(0, 0, 255);
   grid-template-columns: auto auto;
 }
 
@@ -202,6 +205,8 @@
   place-content: center;
   grid-template-rows: auto auto;
   grid-template-columns: auto auto;
+  border-bottom: 1px solid rgb(0, 255, 0);
+  border-right: 1px solid rgb(0, 255, 0);
 }
 
 .mesa-verde-salida > div{
@@ -283,6 +288,8 @@
   place-items: center;
   place-content: center;
   grid-template-rows: auto auto;
+  border-bottom: 1px solid rgb(106, 0, 255);
+  border-left: 1px solid rgb(106, 0, 255);
   grid-template-columns: auto auto;
 }
 
@@ -364,7 +371,7 @@
 }
 
 .mesa-llegada-roja > div{
-  border: 1px solid rgb(255, 0, 0);
+  border-top: 1px solid rgb(255, 0, 0);
   height: calc(100% / 6);
   background: rgba(255, 0, 0, 0.5);
 }
@@ -407,7 +414,8 @@
 .mesa-llegada-azul > div{
   background: rgba(0, 0, 255, 0.5);
   width: calc(100% / 6);
-  border: 1px solid rgb(0, 0, 255);
+  border-bottom: 1px solid rgb(0, 0, 255);
+  border-right: 1px solid rgb(0, 0, 255);
 }
 
 .mesa-llegada-azul-parte-6{
@@ -446,7 +454,8 @@
 
 .mesa-llegada-morada > div{
   width: calc(100% / 6);
-  border: 1px solid rgb(106, 0, 255);
+  border-right: 1px solid rgb(106, 0, 255);
+  border-bottom: 1px solid rgb(106, 0, 255);
   background: rgba(106, 0, 255,0.5);
 }
 
@@ -483,7 +492,8 @@
 }
 
 .mesa-llegada-verde > div{
-  border:1px solid rgb(0, 255, 0);
+  border-left: 1px solid rgb(0, 255, 0);
+  border-top: 1px solid rgb(0, 255, 0);
   height: calc(100% / 6);
   background: rgba(0, 255, 0, 0.5);
 }
