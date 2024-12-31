@@ -37,6 +37,40 @@
   width:20px;
   height: 20px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pieza-cabeza-roja{
+  width:10px;
+  height: 10px;
+  border-radius: 50%;
+  border:0.5px solid #fff;
+  background: rgb(255, 0, 0);
+  position: absolute;
+  top: -5px;
+}
+.pieza-cabeza-roja::before{
+  content: "";
+  width: 8px;
+  height: 8px;
+  text-align: center;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  clip-path: polygon(50% 0%, 72% 40%, 100% 0, 100% 100%, 0 100%, 0 0, 29% 40%);
+  background: rgba(255, 246, 0, 0.8);
+}
+
+.pieza-cuerpo-roja{
+  width:12px;
+  height: 12px;
+  border-radius: 50%;
+  border:0.5px solid #fff;
+  background: rgb(255, 0, 0);
 }
 
 .mesa-roja-camino{
@@ -131,7 +165,42 @@
   width:20px;
   height: 20px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
+
+.pieza-cabeza-azul{
+  width:10px;
+  height: 10px;
+  border-radius: 50%;
+  border:0.5px solid #fff;
+  background: rgb(0, 0, 255);
+  position: absolute;
+  top: -5px;
+}
+.pieza-cabeza-azul::before{
+  content: "";
+  width: 8px;
+  height: 8px;
+  text-align: center;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  clip-path: polygon(50% 0%, 72% 40%, 100% 0, 100% 100%, 0 100%, 0 0, 29% 40%);
+  background: rgba(255, 246, 0, 0.8);
+}
+
+.pieza-cuerpo-azul{
+  width:12px;
+  height: 12px;
+  border-radius: 50%;
+  border:0.5px solid #fff;
+  background: rgb(0, 0, 255);
+}
+
 
 .mesa-azul-camino{
   width: 100%;
@@ -215,7 +284,42 @@
   width:20px;
   height: 20px;
   text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.pieza-cabeza-verde{
+  width:10px;
+  height: 10px;
+  border-radius: 50%;
+  border:0.5px solid #fff;
+  background: rgb(0, 255, 0);
+  position: absolute;
+  top: -5px;
+}
+.pieza-cabeza-verde::before{
+  content: "";
+  width: 8px;
+  height: 8px;
+  text-align: center;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  clip-path: polygon(50% 0%, 72% 40%, 100% 0, 100% 100%, 0 100%, 0 0, 29% 40%);
+  background: rgba(255, 246, 0, 0.8);
+}
+
+.pieza-cuerpo-verde{
+  width:12px;
+  height: 12px;
+  border-radius: 50%;
+  border:0.5px solid #fff;
+  background: rgb(0, 255, 0);
+}
+
 
 .mesa-verde-camino{
   width: 100%;
@@ -299,7 +403,41 @@
   width:20px;
   height: 20px;
   text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.pieza-cabeza-morada{
+  width:10px;
+  height: 10px;
+  border-radius: 50%;
+  border:0.5px solid #fff;
+  background: rgb(106, 0, 255);
+  position: absolute;
+  top: -5px;
+}
+.pieza-cabeza-morada::before{
+  content: "";
+  width: 8px;
+  height: 8px;
+  text-align: center;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  clip-path: polygon(50% 0%, 72% 40%, 100% 0, 100% 100%, 0 100%, 0 0, 29% 40%);
+  background: rgba(255, 246, 0, 0.8);
+}
+
+.pieza-cuerpo-morada{
+  width:12px;
+  height: 12px;
+  border-radius: 50%;
+  border:0.5px solid #fff;
+  background: rgb(106, 0, 255);
+}
+
 
 .mesa-morada-camino{
   width: 100%;
